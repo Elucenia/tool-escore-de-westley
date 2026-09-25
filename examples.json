@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Sem alterações: 0 ponto (leve)",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "score": 0,
+      "level": "low"
+    },
+    "originalInput": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "1",
+      "ar": "1",
+      "ret": "0"
+    },
+    "expected": {
+      "score": 2,
+      "level": "low"
+    },
+    "originalInput": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "1",
+      "ar": "1",
+      "ret": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "2",
+      "ar": "0",
+      "ret": "1"
+    },
+    "expected": {
+      "score": 3,
+      "level": "mid"
+    },
+    "originalInput": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "2",
+      "ar": "0",
+      "ret": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "2",
+      "ar": "2",
+      "ret": "3"
+    },
+    "expected": {
+      "score": 7,
+      "level": "high",
+      "verdict": "grave"
+    },
+    "originalInput": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "2",
+      "ar": "2",
+      "ret": "3"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+    "input": {
+      "cons": "5",
+      "cian": "5",
+      "estr": "2",
+      "ar": "2",
+      "ret": "3"
+    },
+    "expected": {
+      "score": 17,
+      "level": "high",
+      "verdict": "iminente"
+    },
+    "originalInput": {
+      "cons": "5",
+      "cian": "5",
+      "estr": "2",
+      "ar": "2",
+      "ret": "3"
+    },
+    "expandedZeroOptions": []
+  }
+]
