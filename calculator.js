@@ -1,11 +1,11 @@
-/* tool-escore-de-westley · Elucenia · https://github.com/Elucenia/tool-escore-de-westley
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-escore-de-westley · ELUCENIA · https://github.com/Elucenia/tool-escore-de-westley
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"escore-de-westley","title":"Escore de Westley (crupe)","fields":[["cons","Nível de consciência","radio",{"opts":{"0":"Normal (inclusive dormindo)","5":"Desorientado"}}],["cian","Cianose","radio",{"opts":{"0":"Ausente","4":"Com agitação","5":"Em repouso"}}],["estr","Estridor","radio",{"opts":{"0":"Ausente","1":"Com agitação","2":"Em repouso"}}],["ar","Entrada de ar","radio",{"opts":{"0":"Normal","1":"Diminuída","2":"Muito diminuída"}}],["ret","Retrações","radio",{"opts":{"0":"Ausentes","1":"Leves","2":"Moderadas","3":"Graves"}}]],"config":{"unit":"de 17","label":"Escore de Westley","fields":[["cons","radio",0],["cian","radio",0],["estr","radio",0],["ar","radio",0],["ret","radio",0]],"bands":[[0,"low","Crupe leve (≤ 2)","Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações."],[3,"mid","Crupe moderado (3 a 5)","Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina."],[6,"high","Crupe grave (6 a 11)","Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação."],[12,"high","Insuficiência respiratória iminente (≥ 12)","Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
