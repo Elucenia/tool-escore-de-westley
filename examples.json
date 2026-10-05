@@ -1,6 +1,16 @@
 [
   {
-    "label": "Sem alterações: 0 ponto (leve)",
+    "id": "escore-de-westley",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Sem alterações: 0 ponto (leve)",
+    "originalInput": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
     "input": {
       "cons": "0",
       "cian": "0",
@@ -12,17 +22,37 @@
       "score": 0,
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 17"
+      ],
+      "label": "Escore de Westley",
+      "raw": {
+        "score": 0
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escore-de-westley",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
     "originalInput": {
       "cons": "0",
       "cian": "0",
-      "estr": "0",
-      "ar": "0",
+      "estr": "1",
+      "ar": "1",
       "ret": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
     "input": {
       "cons": "0",
       "cian": "0",
@@ -34,17 +64,37 @@
       "score": 2,
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "2",
+        "de 17"
+      ],
+      "label": "Escore de Westley",
+      "raw": {
+        "score": 2
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escore-de-westley",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
     "originalInput": {
       "cons": "0",
       "cian": "0",
-      "estr": "1",
-      "ar": "1",
-      "ret": "0"
+      "estr": "2",
+      "ar": "0",
+      "ret": "1"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
     "input": {
       "cons": "0",
       "cian": "0",
@@ -56,17 +106,37 @@
       "score": 3,
       "level": "mid"
     },
+    "recordedResult": {
+      "main": [
+        "3",
+        "de 17"
+      ],
+      "label": "Escore de Westley",
+      "raw": {
+        "score": 3
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escore-de-westley",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
     "originalInput": {
       "cons": "0",
       "cian": "0",
       "estr": "2",
-      "ar": "0",
-      "ret": "1"
+      "ar": "2",
+      "ret": "3"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
     "input": {
       "cons": "0",
       "cian": "0",
@@ -79,17 +149,37 @@
       "level": "high",
       "verdict": "grave"
     },
+    "recordedResult": {
+      "main": [
+        "7",
+        "de 17"
+      ],
+      "label": "Escore de Westley",
+      "raw": {
+        "score": 7
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escore-de-westley",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
     "originalInput": {
-      "cons": "0",
-      "cian": "0",
+      "cons": "5",
+      "cian": "5",
       "estr": "2",
       "ar": "2",
       "ret": "3"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
     "input": {
       "cons": "5",
       "cian": "5",
@@ -102,13 +192,23 @@
       "level": "high",
       "verdict": "iminente"
     },
-    "originalInput": {
-      "cons": "5",
-      "cian": "5",
-      "estr": "2",
-      "ar": "2",
-      "ret": "3"
+    "recordedResult": {
+      "main": [
+        "17",
+        "de 17"
+      ],
+      "label": "Escore de Westley",
+      "raw": {
+        "score": 17
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

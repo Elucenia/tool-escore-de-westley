@@ -3,13 +3,14 @@
     "id": "escore-de-westley",
     "title": "Escore de Westley (crupe)",
     "short": "Gravidade da laringotraqueobronquite",
+    "desc": "Calcule o escore de Westley para classificar a gravidade do crupe viral (leve, moderado, grave ou insuficiência respiratória iminente) e orientar o tratamento.",
+    "lead": "Classifica a gravidade do crupe (laringotraqueobronquite viral) em crianças pelo nível de consciência, cianose, estridor, entrada de ar e retrações.",
+    "kind": "Escore",
     "spec": [
       "pediatria",
       "medicina-de-emergencia",
       "otorrinolaringologia"
     ],
-    "desc": "Calcule o escore de Westley para classificar a gravidade do crupe viral (leve, moderado, grave ou insuficiência respiratória iminente) e orientar o tratamento.",
-    "lead": "Classifica a gravidade do crupe (laringotraqueobronquite viral) em crianças pelo nível de consciência, cianose, estridor, entrada de ar e retrações.",
     "fields": [
       [
         "cons",
@@ -72,65 +73,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "Escore de Westley",
-      "unit": "de 17",
-      "bands": [
-        [
-          0,
-          "low",
-          "Crupe leve (≤ 2)",
-          "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações."
-        ],
-        [
-          3,
-          "mid",
-          "Crupe moderado (3 a 5)",
-          "Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina."
-        ],
-        [
-          6,
-          "high",
-          "Crupe grave (6 a 11)",
-          "Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação."
-        ],
-        [
-          12,
-          "high",
-          "Insuficiência respiratória iminente (≥ 12)",
-          "Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica."
-        ]
-      ]
-    },
     "formula": "<p>Soma de 5 itens: nível de consciência (0 ou 5), cianose (0, 4 ou 5), estridor (0 a 2), entrada de ar (0 a 2) e retrações (0 a 3). Total de 0 a 17.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Gravidade"
-      ],
-      [
-        "≤ 2",
-        "Leve"
-      ],
-      [
-        "3 a 5",
-        "Moderado"
-      ],
-      [
-        "6 a 11",
-        "Grave"
-      ],
-      [
-        "≥ 12",
-        "Insuficiência respiratória iminente"
-      ]
-    ],
-    "tips": [
-      "Examine a criança calma, de preferência no colo dos pais: agitação piora estridor e retrações e pode precipitar obstrução.",
-      "Todas as crianças com crupe, inclusive as leves, se beneficiam de uma dose de corticoide (dexametasona 0,15 a 0,6 mg/kg); a nebulização com ar umidificado não tem benefício comprovado.",
-      "Após epinefrina nebulizada, observe por pelo menos 2 horas: o efeito dura cerca de 2 horas e os sintomas podem voltar.",
-      "Suspeite de outro diagnóstico (epiglotite, traqueíte bacteriana, corpo estranho, abscesso retrofaríngeo) com febre alta e aspecto tóxico, sialorreia, idade atípica (&lt; 6 meses ou &gt; 6 anos) ou má resposta ao tratamento."
-    ],
     "sources": [
       [
         "Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. Am J Dis Child, 1978.",
@@ -215,65 +158,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 17",
-      "label": "Escore de Westley",
-      "fields": [
-        [
-          "cons",
-          "radio",
-          0
-        ],
-        [
-          "cian",
-          "radio",
-          0
-        ],
-        [
-          "estr",
-          "radio",
-          0
-        ],
-        [
-          "ar",
-          "radio",
-          0
-        ],
-        [
-          "ret",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Crupe leve (≤ 2)",
-          "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações."
-        ],
-        [
-          3,
-          "mid",
-          "Crupe moderado (3 a 5)",
-          "Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina."
-        ],
-        [
-          6,
-          "high",
-          "Crupe grave (6 a 11)",
-          "Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação."
-        ],
-        [
-          12,
-          "high",
-          "Insuficiência respiratória iminente (≥ 12)",
-          "Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -282,17 +166,459 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T19:14:05.393Z",
+      "total": 216,
+      "passed": 216,
+      "sourceRowCount": 216,
+      "uniqueApiInputCount": 216,
+      "sourceContextCount": 216,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "3f971e57a5d561666bd1b15286ce8d73292beb0dbb995e1500a6a3bfd8538e78",
+        "total": 216,
+        "bankRowCount": 216,
+        "uniqueApiInputCount": 216,
+        "sourceContextCount": 216,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/bode-air-westley-independent-expectations-final27.json",
+            "sha256": "c9e48c4a30ce6274824338a102cb61f780573fafbe6e462205ba7d9312b53da1"
+          },
+          {
+            "file": "reports/review-20261003/bode-air-westley-primary-observations-final27.cjs",
+            "sha256": "52110d475ffed2282f3faad540747cb42330c2aee2727f87ec867c157c824322"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/bode-air-westley-independent-source-check-final27.json",
+          "sha256": "ee5c83853da827d687151724fd2a6c2e51dfa04543d1dd75e6697ffa5c003622"
+        },
+        "packagingRequirement": "Compose independent source/citation/edition/rubric changes using owned JSON recipes, then bind fresh source/build/package/browser proofs before publication."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 216,
+        "uniqueApiInputs": 216,
+        "duplicateRows": 0,
+        "expectationAudit": {
+          "file": "reports/review-20261003/bode-air-westley-independent-expectations-final27.json",
+          "sha256": "c9e48c4a30ce6274824338a102cb61f780573fafbe6e462205ba7d9312b53da1"
+        }
+      },
+      "scope": "216 retained selected-point scenarios: exact raw.score sum of five point codes confirmed in the directly read 2025 primary observational Table1. Original1978 full text and descriptor/severity/treatment equivalence remain unconfirmed.",
+      "sources": [
+        {
+          "id": "escore-de-westley",
+          "primaryObservations": {
+            "file": "reports/review-20261003/bode-air-westley-primary-observations-final27.cjs",
+            "sha256": "52110d475ffed2282f3faad540747cb42330c2aee2727f87ec867c157c824322"
+          },
+          "sources": [
+            {
+              "doi": "10.1001/archpedi.1978.02120300044008",
+              "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/507958",
+              "access": "Original1978 publisher redirected to abstract/paywall. PDF request redirected to abstract or access suspension. Correct PMID347921 located; unrelated initial348586 URL was discarded and not used as evidence.",
+              "readScope": "Publisher original abstract only:20hospitalized children aged4months–5years, randomized epinephrine versus saline. No complete1978 table, full text or current therapeutic inference claimed."
+            },
+            {
+              "doi": "10.3389/fped.2025.1544480",
+              "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1544480/full",
+              "access": "Official publisher original2025 prospective observational article opened directly. PMC direct routes showedcaptcha; official Frontiers source was accessible.",
+              "readScope": "Table1, MaterialandMethods andLimitations. Table1 reproduces five component point assignments and cites1978; its cyanosis4point description says crying rather than current agitation wording.2025severity prose says>12 impending respiratory failure, leaving12 unresolved; those bands are not an independent oracle here."
+            }
+          ],
+          "scope": "All216 combinations of five selected component point codes and exact integer sum. The numeric point scheme is confirmed in the directly read2025 primary observational paper; full semantic equivalence/validity of1978 and later grading/treatment algorithms is not certified.",
+          "limitations": "Original1978 full text remains unread. Later2025 is an independent observational study, not the derivation paper or a replacement clinical validation. Descriptor differences (crying/agitation;alert/normal includingsleep) and severity-cutoff ambiguity are explicitly excluded. No diagnosis, respiratory-failure prediction, medication choice, airway intervention or professional translated instrument certification.",
+          "fullOriginalRead": false
+        }
+      ],
+      "evidencePath": "reports/review-20261003/bode-air-westley-independent-source-check-final27.json",
+      "evidenceSha256": "ee5c83853da827d687151724fd2a6c2e51dfa04543d1dd75e6697ffa5c003622",
+      "independentPeer": {
+        "status": "passed-scoped-numeric",
+        "evidence": {
+          "file": "reports/review-20261003/bode-air-westley-independent-peer-verify-final27.json",
+          "sha256": "46733e24c64444edfdb18f992c6afca03602c57bd9ea0320bb04b1d1ebf2c64b"
+        },
+        "scope": "Independent source tables/own integer expectations and three adapters in Node/VM/Chromium. Clinical/professional-language/rights/full-method approval not performed."
+      },
+      "recordedAdapterExecutions": 648,
+      "recordedVmExecutions": 648,
+      "recordedChromiumExecutions": 648,
+      "freshAdapterExecutions": 648,
+      "freshVmExecutions": 648,
+      "implementations": [
+        {
+          "id": "escore-de-westley",
+          "app": "website",
+          "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        },
+        {
+          "id": "escore-de-westley",
+          "app": "dashboard",
+          "file": "apps/dashboard/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        },
+        {
+          "id": "escore-de-westley",
+          "app": "command-center",
+          "file": "apps/command-center/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        }
+      ],
+      "qualifications": [
+        "Original1978 full text remains unread. Later2025 is an independent observational study, not the derivation paper or a replacement clinical validation. Descriptor differences (crying/agitation;alert/normal includingsleep) and severity-cutoff ambiguity are explicitly excluded. No diagnosis, respiratory-failure prediction, medication choice, airway intervention or professional translated instrument certification.",
+        "Only numeric raw.score is included in the package replay. Main text, raw quartiles/levels, note/verdict/rows, mortality probabilities, diagnostic or therapeutic decisions are not approved by this scoped bank.",
+        "The complete bank preserves every stored source scenario and exact input identity; mirror/runtime executions do not multiply case counts. Three adapters were actually checked in Node, isolated VM and isolated Chromium in the linked original receipt, and Node/VM were freshly replayed for preparation.",
+        "All 862 historic source fixtures and tolerances remain byte-identical. Four inline records are only a subset of the complete downloadable source bank.",
+        "Source citation/edition/rubric and localized-content amendments are separately owned; this evidence candidate must be composed using its JSON field recipes, not by overwriting subsequently amended catalogs. Fresh build/package/browser checks remain required before publication."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "metadataPackagingPeer": {
+        "status": "passed",
+        "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+        "peer": {
+          "file": "reports/review-20261003/bode-air-westley-bank-metadata-independent-review-western-final27.json",
+          "sha256": "39bf252ecd473902ea653e1b6384d6bc7db6d4a401347abdce3dab4c98e24dc0"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "prospectiveSource27Bindings": [
+        {
+          "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/escore-de-westley/calculator.js",
+          "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+        }
+      ],
+      "prospectiveSource27Replay": {
+        "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+        "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Westley 1978:5 fatores,0–17; crupe",
+    "implementationVersion": "escore-de-westley@native-2026-10-03+cb20099cd575",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/347921/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Soma de 5 itens: nível de consciência (0 ou 5), cianose (0, 4 ou 5), estridor (0 a 2), entrada de ar (0 a 2) e retrações (0 a 3). Total de 0 a 17.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "cons",
+            "label": "Nível de consciência",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Normal (inclusive dormindo)",
+              "5": "Desorientado"
+            }
+          },
+          {
+            "key": "cian",
+            "label": "Cianose",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "4": "Com agitação",
+              "5": "Em repouso"
+            }
+          },
+          {
+            "key": "estr",
+            "label": "Estridor",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Com agitação",
+              "2": "Em repouso"
+            }
+          },
+          {
+            "key": "ar",
+            "label": "Entrada de ar",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Normal",
+              "1": "Diminuída",
+              "2": "Muito diminuída"
+            }
+          },
+          {
+            "key": "ret",
+            "label": "Retrações",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausentes",
+              "1": "Leves",
+              "2": "Moderadas",
+              "3": "Graves"
+            }
+          }
+        ],
+        "hash": "2e09afc451670b290a881b3a421479a73701207a6c07e61f7e1cee7025a92435"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. Am J Dis Child, 1978.",
+          "url": "https://doi.org/10.1001/archpedi.1978.02120300044008",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study.",
+            "year": "1978",
+            "firstPublicationDate": "1978-05-01",
+            "doi": "10.1001/archpedi.1978.02120300044008",
+            "pmid": "347921",
+            "journal": "American journal of diseases of children (1960)",
+            "authors": "Westley CR, Cotton EK, Brooks JG."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/347921/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "bce49a1c7a01e9af3cf785fda32ff6946ce0b88716427f46aa7e2e96d714b421",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Bjornson CL, Johnson DW. Croup in children. CMAJ, 2013.",
+          "url": "https://doi.org/10.1503/cmaj.121645",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Croup in children.",
+            "year": "2013",
+            "firstPublicationDate": "2013-08-12",
+            "doi": "10.1503/cmaj.121645",
+            "pmid": "23939212",
+            "pmcid": "PMC3796596",
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "authors": "Bjornson CL, Johnson DW."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3796596/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T19:14:05.393Z",
+        "total": 216,
+        "passed": 216,
+        "sourceRowCount": 216,
+        "uniqueApiInputCount": 216,
+        "sourceContextCount": 216,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "3f971e57a5d561666bd1b15286ce8d73292beb0dbb995e1500a6a3bfd8538e78",
+          "total": 216,
+          "bankRowCount": 216,
+          "uniqueApiInputCount": 216,
+          "sourceContextCount": 216,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/bode-air-westley-independent-expectations-final27.json",
+              "sha256": "c9e48c4a30ce6274824338a102cb61f780573fafbe6e462205ba7d9312b53da1"
+            },
+            {
+              "file": "reports/review-20261003/bode-air-westley-primary-observations-final27.cjs",
+              "sha256": "52110d475ffed2282f3faad540747cb42330c2aee2727f87ec867c157c824322"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/bode-air-westley-independent-source-check-final27.json",
+            "sha256": "ee5c83853da827d687151724fd2a6c2e51dfa04543d1dd75e6697ffa5c003622"
+          },
+          "packagingRequirement": "Compose independent source/citation/edition/rubric changes using owned JSON recipes, then bind fresh source/build/package/browser proofs before publication."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 216,
+          "uniqueApiInputs": 216,
+          "duplicateRows": 0,
+          "expectationAudit": {
+            "file": "reports/review-20261003/bode-air-westley-independent-expectations-final27.json",
+            "sha256": "c9e48c4a30ce6274824338a102cb61f780573fafbe6e462205ba7d9312b53da1"
+          }
+        },
+        "scope": "216 retained selected-point scenarios: exact raw.score sum of five point codes confirmed in the directly read 2025 primary observational Table1. Original1978 full text and descriptor/severity/treatment equivalence remain unconfirmed.",
+        "sources": [
+          {
+            "id": "escore-de-westley",
+            "primaryObservations": {
+              "file": "reports/review-20261003/bode-air-westley-primary-observations-final27.cjs",
+              "sha256": "52110d475ffed2282f3faad540747cb42330c2aee2727f87ec867c157c824322"
+            },
+            "sources": [
+              {
+                "doi": "10.1001/archpedi.1978.02120300044008",
+                "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/507958",
+                "access": "Original1978 publisher redirected to abstract/paywall. PDF request redirected to abstract or access suspension. Correct PMID347921 located; unrelated initial348586 URL was discarded and not used as evidence.",
+                "readScope": "Publisher original abstract only:20hospitalized children aged4months–5years, randomized epinephrine versus saline. No complete1978 table, full text or current therapeutic inference claimed."
+              },
+              {
+                "doi": "10.3389/fped.2025.1544480",
+                "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1544480/full",
+                "access": "Official publisher original2025 prospective observational article opened directly. PMC direct routes showedcaptcha; official Frontiers source was accessible.",
+                "readScope": "Table1, MaterialandMethods andLimitations. Table1 reproduces five component point assignments and cites1978; its cyanosis4point description says crying rather than current agitation wording.2025severity prose says>12 impending respiratory failure, leaving12 unresolved; those bands are not an independent oracle here."
+              }
+            ],
+            "scope": "All216 combinations of five selected component point codes and exact integer sum. The numeric point scheme is confirmed in the directly read2025 primary observational paper; full semantic equivalence/validity of1978 and later grading/treatment algorithms is not certified.",
+            "limitations": "Original1978 full text remains unread. Later2025 is an independent observational study, not the derivation paper or a replacement clinical validation. Descriptor differences (crying/agitation;alert/normal includingsleep) and severity-cutoff ambiguity are explicitly excluded. No diagnosis, respiratory-failure prediction, medication choice, airway intervention or professional translated instrument certification.",
+            "fullOriginalRead": false
+          }
+        ],
+        "evidencePath": "reports/review-20261003/bode-air-westley-independent-source-check-final27.json",
+        "evidenceSha256": "ee5c83853da827d687151724fd2a6c2e51dfa04543d1dd75e6697ffa5c003622",
+        "independentPeer": {
+          "status": "passed-scoped-numeric",
+          "evidence": {
+            "file": "reports/review-20261003/bode-air-westley-independent-peer-verify-final27.json",
+            "sha256": "46733e24c64444edfdb18f992c6afca03602c57bd9ea0320bb04b1d1ebf2c64b"
+          },
+          "scope": "Independent source tables/own integer expectations and three adapters in Node/VM/Chromium. Clinical/professional-language/rights/full-method approval not performed."
+        },
+        "recordedAdapterExecutions": 648,
+        "recordedVmExecutions": 648,
+        "recordedChromiumExecutions": 648,
+        "freshAdapterExecutions": 648,
+        "freshVmExecutions": 648,
+        "implementations": [
+          {
+            "id": "escore-de-westley",
+            "app": "website",
+            "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          },
+          {
+            "id": "escore-de-westley",
+            "app": "dashboard",
+            "file": "apps/dashboard/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          },
+          {
+            "id": "escore-de-westley",
+            "app": "command-center",
+            "file": "apps/command-center/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          }
+        ],
+        "qualifications": [
+          "Original1978 full text remains unread. Later2025 is an independent observational study, not the derivation paper or a replacement clinical validation. Descriptor differences (crying/agitation;alert/normal includingsleep) and severity-cutoff ambiguity are explicitly excluded. No diagnosis, respiratory-failure prediction, medication choice, airway intervention or professional translated instrument certification.",
+          "Only numeric raw.score is included in the package replay. Main text, raw quartiles/levels, note/verdict/rows, mortality probabilities, diagnostic or therapeutic decisions are not approved by this scoped bank.",
+          "The complete bank preserves every stored source scenario and exact input identity; mirror/runtime executions do not multiply case counts. Three adapters were actually checked in Node, isolated VM and isolated Chromium in the linked original receipt, and Node/VM were freshly replayed for preparation.",
+          "All 862 historic source fixtures and tolerances remain byte-identical. Four inline records are only a subset of the complete downloadable source bank.",
+          "Source citation/edition/rubric and localized-content amendments are separately owned; this evidence candidate must be composed using its JSON field recipes, not by overwriting subsequently amended catalogs. Fresh build/package/browser checks remain required before publication."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "metadataPackagingPeer": {
+          "status": "passed",
+          "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+          "peer": {
+            "file": "reports/review-20261003/bode-air-westley-bank-metadata-independent-review-western-final27.json",
+            "sha256": "39bf252ecd473902ea653e1b6384d6bc7db6d4a401347abdce3dab4c98e24dc0"
+          },
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "prospectiveSource27Bindings": [
+          {
+            "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/escore-de-westley/calculator.js",
+            "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+          }
+        ],
+        "prospectiveSource27Replay": {
+          "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+          "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+    },
+    "limits": "A publicação Westley 1978 avaliou 20 crianças de 4 meses a 5 anos, hospitalizadas por crupe agudo com estridor persistente em repouso, em um ensaio de intervenção. Essa faixa descreve a coorte original e não determina, sozinha, os limites universais de uso do escore. A tabela de pontuação e a classificação de gravidade adotada precisam de conferência específica.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.926Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Tabela de cinco fatores, limiares de gravidade posteriores e aplicação fora da população/contexto do estudo não estão no resumo."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
+    "bytes": 5244,
+    "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "85e01cd12f9a3d5c6e7b9d4e8ffdf3e62a8ab51e5c441f762d009ecdfb094cb9",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "ebcd259f3635e7051a503a07da8d1831f43ff0615eef2a222fa7344790c992d7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "ebcd259f3635e7051a503a07da8d1831f43ff0615eef2a222fa7344790c992d7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

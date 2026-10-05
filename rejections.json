@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field cons",
+    "input": {
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "cons"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field cons",
+    "input": {
+      "cons": "",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "cons"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option cons",
+    "input": {
+      "cons": "__ELUCENIA_INVALID_OPTION__",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "cons"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field cian",
+    "input": {
+      "cons": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "cian"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field cian",
+    "input": {
+      "cons": "0",
+      "cian": "",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "cian"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option cian",
+    "input": {
+      "cons": "0",
+      "cian": "__ELUCENIA_INVALID_OPTION__",
+      "estr": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "cian"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field estr",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "estr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field estr",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "estr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option estr",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "__ELUCENIA_INVALID_OPTION__",
+      "ar": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "estr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field ar",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field ar",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option ar",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "__ELUCENIA_INVALID_OPTION__",
+      "ret": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "ar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field ret",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ret"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field ret",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ret"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option ret",
+    "input": {
+      "cons": "0",
+      "cian": "0",
+      "estr": "0",
+      "ar": "0",
+      "ret": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "ret"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
