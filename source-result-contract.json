@@ -1,0 +1,283 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "escore-de-westley",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "c39d1bcfbaf83250264ae06d1a7c5b72bf8979df",
+    "oldEngineSha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b",
+    "currentEngineSha256": "abdcc7b52894fd380a099e3fdf23cc1ef487f88ceadf3581bb80bb08466423b3"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Sem alterações: 0 ponto (leve)",
+      "input": {
+        "cons": "0",
+        "cian": "0",
+        "estr": "0",
+        "ar": "0",
+        "ret": "0"
+      },
+      "publicOutput": {
+        "id": "escore-de-westley",
+        "main": [
+          "0",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "level": "low",
+        "verdict": "Crupe leve (≤ 2)",
+        "note": "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+      "input": {
+        "cons": "0",
+        "cian": "0",
+        "estr": "1",
+        "ar": "1",
+        "ret": "0"
+      },
+      "publicOutput": {
+        "id": "escore-de-westley",
+        "main": [
+          "2",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "raw": {
+          "score": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 2,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "level": "low",
+        "verdict": "Crupe leve (≤ 2)",
+        "note": "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.",
+        "raw": {
+          "score": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+      "input": {
+        "cons": "0",
+        "cian": "0",
+        "estr": "2",
+        "ar": "0",
+        "ret": "1"
+      },
+      "publicOutput": {
+        "id": "escore-de-westley",
+        "main": [
+          "3",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "raw": {
+          "score": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 3,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "level": "mid",
+        "verdict": "Crupe moderado (3 a 5)",
+        "note": "Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina.",
+        "raw": {
+          "score": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+      "input": {
+        "cons": "0",
+        "cian": "0",
+        "estr": "2",
+        "ar": "2",
+        "ret": "3"
+      },
+      "publicOutput": {
+        "id": "escore-de-westley",
+        "main": [
+          "7",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "raw": {
+          "score": 7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 7,
+        "level": "high",
+        "verdict": "grave"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "7",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "level": "high",
+        "verdict": "Crupe grave (6 a 11)",
+        "note": "Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação.",
+        "raw": {
+          "score": 7
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+      "input": {
+        "cons": "5",
+        "cian": "5",
+        "estr": "2",
+        "ar": "2",
+        "ret": "3"
+      },
+      "publicOutput": {
+        "id": "escore-de-westley",
+        "main": [
+          "17",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "raw": {
+          "score": 17
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 17,
+        "level": "high",
+        "verdict": "iminente"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "17",
+          "de 17"
+        ],
+        "label": "Escore de Westley",
+        "level": "high",
+        "verdict": "Insuficiência respiratória iminente (≥ 12)",
+        "note": "Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica.",
+        "raw": {
+          "score": 17
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

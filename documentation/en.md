@@ -93,3 +93,42 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Mild croup (≤ 2)
+
+Oral dexamethasone 0,15 to 0,6 mg/kg as a single dose; discharge with instructions.
+
+
+### 2
+
+Mild croup (≤ 2)
+
+Oral dexamethasone 0,15 to 0,6 mg/kg as a single dose; discharge with instructions.
+
+
+### 3
+
+Moderate croup (3 to 5)
+
+Dexamethasone; consider nebulized epinephrine if stridor at rest and observe for 2 to 4 hours after epinephrine.
+
+
+### 4
+
+Severe croup (6 to 11)
+
+Nebulized epinephrine + dexamethasone, oxygen if needed, and prolonged observation or hospitalization.
+
+
+### 5
+
+Impending respiratory failure (≥ 12)
+
+Nebulized epinephrine, oxygen, and activation of the airway team and pediatric ICU.
+

@@ -93,3 +93,42 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Crupe leve (≤ 2)
+
+Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.
+
+
+### 2
+
+Crupe leve (≤ 2)
+
+Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.
+
+
+### 3
+
+Crupe moderado (3 a 5)
+
+Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina.
+
+
+### 4
+
+Crupe grave (6 a 11)
+
+Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação.
+
+
+### 5
+
+Insuficiência respiratória iminente (≥ 12)
+
+Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica.
+

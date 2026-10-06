@@ -1,0 +1,877 @@
+{
+  "id": "escore-de-westley",
+  "implementationVersion": "escore-de-westley@native-2026-10-05+abdcc7b52894",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crupe leve (≤ 2)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crupe leve (≤ 2)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Dexametasona oral 0,15 a 0,6 mg/kg em dose única; alta com orientações.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crupe moderado (3 a 5)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Dexametasona; considerar epinefrina nebulizada se estridor em repouso e observar por 2 a 4 horas após a epinefrina.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crupe grave (6 a 11)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Epinefrina nebulizada + dexametasona, oxigênio se necessário e observação prolongada ou internação.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Insuficiência respiratória iminente (≥ 12)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Epinefrina nebulizada, oxigênio e acionamento de equipe de via aérea e UTI pediátrica.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mild croup (≤ 2)",
+            "locale": "en",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Oral dexamethasone 0,15 to 0,6 mg/kg as a single dose; discharge with instructions.",
+            "locale": "en",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mild croup (≤ 2)",
+            "locale": "en",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Oral dexamethasone 0,15 to 0,6 mg/kg as a single dose; discharge with instructions.",
+            "locale": "en",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate croup (3 to 5)",
+            "locale": "en",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "Dexamethasone; consider nebulized epinephrine if stridor at rest and observe for 2 to 4 hours after epinephrine.",
+            "locale": "en",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Severe croup (6 to 11)",
+            "locale": "en",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "Nebulized epinephrine + dexamethasone, oxygen if needed, and prolonged observation or hospitalization.",
+            "locale": "en",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Impending respiratory failure (≥ 12)",
+            "locale": "en",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "Nebulized epinephrine, oxygen, and activation of the airway team and pediatric ICU.",
+            "locale": "en",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crup leve (≤ 2)",
+            "locale": "es",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Dexametasona oral 0,15 a 0,6 mg/kg en dosis única; alta con instrucciones.",
+            "locale": "es",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crup leve (≤ 2)",
+            "locale": "es",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Dexametasona oral 0,15 a 0,6 mg/kg en dosis única; alta con instrucciones.",
+            "locale": "es",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crup moderado (3 a 5)",
+            "locale": "es",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "Dexametasona; considerar epinefrina nebulizada si hay estridor en reposo y observar durante 2 a 4 horas después de la epinefrina.",
+            "locale": "es",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Crup grave (6 a 11)",
+            "locale": "es",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "Epinefrina nebulizada + dexametasona, oxígeno si es necesario y observación prolongada o internación.",
+            "locale": "es",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Insuficiencia respiratoria inminente (≥ 12)",
+            "locale": "es",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "Epinefrina nebulizada, oxígeno y activación del equipo de vía aérea y de la UCI pediátrica.",
+            "locale": "es",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup léger (≤ 2)",
+            "locale": "fr",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Dexaméthasone orale 0,15 à 0,6 mg/kg en dose unique ; sortie avec consignes.",
+            "locale": "fr",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup léger (≤ 2)",
+            "locale": "fr",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Dexaméthasone orale 0,15 à 0,6 mg/kg en dose unique ; sortie avec consignes.",
+            "locale": "fr",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup modéré (3 à 5)",
+            "locale": "fr",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "Dexaméthasone ; envisager l’épinéphrine nébulisée en cas de stridor au repos et surveiller pendant 2 à 4 heures après l’épinéphrine.",
+            "locale": "fr",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup sévère (6 à 11)",
+            "locale": "fr",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "Épinéphrine nébulisée + dexaméthasone, oxygène si nécessaire et surveillance prolongée ou hospitalisation.",
+            "locale": "fr",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Insuffisance respiratoire imminente (≥ 12)",
+            "locale": "fr",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "Épinéphrine nébulisée, oxygène et activation de l’équipe des voies aériennes et des soins intensifs pédiatriques.",
+            "locale": "fr",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Leichter Pseudokrupp (≤ 2)",
+            "locale": "de",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Orales Dexamethason 0,15 bis 0,6 mg/kg als Einzeldosis; Entlassung mit Anweisungen.",
+            "locale": "de",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Leichter Pseudokrupp (≤ 2)",
+            "locale": "de",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Orales Dexamethason 0,15 bis 0,6 mg/kg als Einzeldosis; Entlassung mit Anweisungen.",
+            "locale": "de",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßiger Pseudokrupp (3 bis 5)",
+            "locale": "de",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "Dexamethason; bei Stridor in Ruhe vernebeltes Epinephrin erwägen und nach Epinephrin 2 bis 4 Stunden beobachten.",
+            "locale": "de",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Schwerer Pseudokrupp (6 bis 11)",
+            "locale": "de",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "Vernebeltes Epinephrin + Dexamethason, bei Bedarf Sauerstoff und verlängerte Beobachtung oder Hospitalisierung.",
+            "locale": "de",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Drohendes respiratorisches Versagen (≥ 12)",
+            "locale": "de",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "Vernebeltes Epinephrin, Sauerstoff und Alarmierung des Atemwegsteams sowie der pädiatrischen Intensivstation.",
+            "locale": "de",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup lieve (≤ 2)",
+            "locale": "it",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Desametasone orale 0,15 a 0,6 mg/kg in dose singola; dimissione con istruzioni.",
+            "locale": "it",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup lieve (≤ 2)",
+            "locale": "it",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "Desametasone orale 0,15 a 0,6 mg/kg in dose singola; dimissione con istruzioni.",
+            "locale": "it",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup moderato (3 a 5)",
+            "locale": "it",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "Desametasone; considerare epinefrina nebulizzata se stridore a riposo e osservare per 2 a 4 ore dopo l’epinefrina.",
+            "locale": "it",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Croup grave (6 a 11)",
+            "locale": "it",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "Epinefrina nebulizzata + desametasone, ossigeno se necessario e osservazione prolungata o ricovero.",
+            "locale": "it",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Insufficienza respiratoria imminente (≥ 12)",
+            "locale": "it",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "Epinefrina nebulizzata, ossigeno e attivazione del team vie aeree e della terapia intensiva pediatrica.",
+            "locale": "it",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الخانوق خفيف (≤ 2)",
+            "locale": "ar",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "ديكساميثازون فموي 0,15 إلى 0,6 mg/kg جرعة واحدة؛ الخروج مع تعليمات.",
+            "locale": "ar",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الخانوق خفيف (≤ 2)",
+            "locale": "ar",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "ديكساميثازون فموي 0,15 إلى 0,6 mg/kg جرعة واحدة؛ الخروج مع تعليمات.",
+            "locale": "ar",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الخانوق متوسط (3 إلى 5)",
+            "locale": "ar",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "ديكساميثازون؛ يُنظر في إعطاء الإبينفرين بالاستنشاق إذا وُجد صرير أثناء الراحة ومراقبة المريض لمدة 2 إلى 4 ساعات بعد الإبينفرين.",
+            "locale": "ar",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الخانوق شديد (6 إلى 11)",
+            "locale": "ar",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "إبينفرين بالاستنشاق + ديكساميثازون، وأكسجين عند الحاجة، ومراقبة مطولة أو إدخال للمستشفى.",
+            "locale": "ar",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "فشل تنفسي وشيك (≥ 12)",
+            "locale": "ar",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "إبينفرين بالاستنشاق، وأكسجين، وتفعيل فريق مجرى الهواء والعناية المركزة للأطفال.",
+            "locale": "ar",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "轻度哮吼（≤ 2）",
+            "locale": "zh",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "口服地塞米松0,15至0,6 mg/kg，单次给药；出院并给予指导。",
+            "locale": "zh",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "轻度哮吼（≤ 2）",
+            "locale": "zh",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "口服地塞米松0,15至0,6 mg/kg，单次给药；出院并给予指导。",
+            "locale": "zh",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度哮吼（3至5）",
+            "locale": "zh",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "地塞米松；如静息时出现喘鸣，可考虑雾化肾上腺素，并在肾上腺素后观察2至4小时。",
+            "locale": "zh",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度哮吼（6至11）",
+            "locale": "zh",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "雾化肾上腺素+地塞米松，必要时吸氧，并延长观察或住院。",
+            "locale": "zh",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "迫在眉睫的呼吸衰竭（≥ 12）",
+            "locale": "zh",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "雾化肾上腺素、吸氧，并启动气道团队和儿科重症监护团队。",
+            "locale": "zh",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "軽度クループ（≤ 2）",
+            "locale": "ja",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "経口デキサメタゾン0,15～0,6 mg/kgを単回投与；指示をつけて退院。",
+            "locale": "ja",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "軽度クループ（≤ 2）",
+            "locale": "ja",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "経口デキサメタゾン0,15～0,6 mg/kgを単回投与；指示をつけて退院。",
+            "locale": "ja",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度クループ（3～5）",
+            "locale": "ja",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "デキサメタゾン；安静時に喘鳴があればネブライザーによるエピネフリンを考慮し、エピネフリン後2～4時間観察する。",
+            "locale": "ja",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度クループ（6～11）",
+            "locale": "ja",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "ネブライザーによるエピネフリン＋デキサメタゾン、必要に応じて酸素、そして長時間の観察または入院。",
+            "locale": "ja",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "差し迫った呼吸不全（≥ 12）",
+            "locale": "ja",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "ネブライザーによるエピネフリン、酸素投与、そして気道チームと小児ICUの招集。",
+            "locale": "ja",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Sem alterações: 0 ponto (leve)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "हल्का क्रूप (≤ 2)",
+            "locale": "hi",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "मौखिक डेक्सामेथासोन 0,15 से 0,6 mg/kg एकल खुराक; निर्देशों के साथ छुट्टी।",
+            "locale": "hi",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor com agitação e entrada de ar diminuída: 2 pontos (leve, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "हल्का क्रूप (≤ 2)",
+            "locale": "hi",
+            "template": "documented-authored-4df4909b86e26861273c"
+          },
+          "note": {
+            "text": "मौखिक डेक्सामेथासोन 0,15 से 0,6 mg/kg एकल खुराक; निर्देशों के साथ छुट्टी।",
+            "locale": "hi",
+            "template": "documented-authored-08a2d4f522914a695ae7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Estridor em repouso e retrações leves: 3 pontos (moderado)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम क्रूप (3 से 5)",
+            "locale": "hi",
+            "template": "documented-authored-b492735fd3a59df27ab1"
+          },
+          "note": {
+            "text": "डेक्सामेथासोन; आराम की अवस्था में स्ट्राइडर हो तो नेब्युलाइज़्ड एपिनेफ्रिन पर विचार करें और एपिनेफ्रिन के बाद 2 से 4 घंटे तक निरीक्षण करें।",
+            "locale": "hi",
+            "template": "documented-authored-9efb580da95cd52642ba"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Estridor em repouso, entrada muito diminuída, retrações graves: 7 pontos (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "गंभीर क्रूप (6 से 11)",
+            "locale": "hi",
+            "template": "documented-authored-749db1f375631c4e1be4"
+          },
+          "note": {
+            "text": "नेब्युलाइज़्ड एपिनेफ्रिन + डेक्सामेथासोन, आवश्यकता होने पर ऑक्सीजन, और लंबा निरीक्षण या अस्पताल में भर्ती।",
+            "locale": "hi",
+            "template": "documented-authored-f48f8f235bd44dfe4850"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Desorientado, cianose em repouso, estridor, entrada muito diminuída, retrações graves: 17 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "आसन्न श्वसन विफलता (≥ 12)",
+            "locale": "hi",
+            "template": "documented-authored-b57d93264c5a955e67b5"
+          },
+          "note": {
+            "text": "नेब्युलाइज़्ड एपिनेफ्रिन, ऑक्सीजन, और एयरवे टीम तथा बाल आईसीयू को सक्रिय करें।",
+            "locale": "hi",
+            "template": "documented-authored-236b3f47b86d985aa887"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

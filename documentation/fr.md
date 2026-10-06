@@ -93,3 +93,42 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Croup léger (≤ 2)
+
+Dexaméthasone orale 0,15 à 0,6 mg/kg en dose unique ; sortie avec consignes.
+
+
+### 2
+
+Croup léger (≤ 2)
+
+Dexaméthasone orale 0,15 à 0,6 mg/kg en dose unique ; sortie avec consignes.
+
+
+### 3
+
+Croup modéré (3 à 5)
+
+Dexaméthasone ; envisager l’épinéphrine nébulisée en cas de stridor au repos et surveiller pendant 2 à 4 heures après l’épinéphrine.
+
+
+### 4
+
+Croup sévère (6 à 11)
+
+Épinéphrine nébulisée + dexaméthasone, oxygène si nécessaire et surveillance prolongée ou hospitalisation.
+
+
+### 5
+
+Insuffisance respiratoire imminente (≥ 12)
+
+Épinéphrine nébulisée, oxygène et activation de l’équipe des voies aériennes et des soins intensifs pédiatriques.
+

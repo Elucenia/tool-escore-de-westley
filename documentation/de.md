@@ -93,3 +93,42 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Leichter Pseudokrupp (≤ 2)
+
+Orales Dexamethason 0,15 bis 0,6 mg/kg als Einzeldosis; Entlassung mit Anweisungen.
+
+
+### 2
+
+Leichter Pseudokrupp (≤ 2)
+
+Orales Dexamethason 0,15 bis 0,6 mg/kg als Einzeldosis; Entlassung mit Anweisungen.
+
+
+### 3
+
+Mäßiger Pseudokrupp (3 bis 5)
+
+Dexamethason; bei Stridor in Ruhe vernebeltes Epinephrin erwägen und nach Epinephrin 2 bis 4 Stunden beobachten.
+
+
+### 4
+
+Schwerer Pseudokrupp (6 bis 11)
+
+Vernebeltes Epinephrin + Dexamethason, bei Bedarf Sauerstoff und verlängerte Beobachtung oder Hospitalisierung.
+
+
+### 5
+
+Drohendes respiratorisches Versagen (≥ 12)
+
+Vernebeltes Epinephrin, Sauerstoff und Alarmierung des Atemwegsteams sowie der pädiatrischen Intensivstation.
+

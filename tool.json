@@ -315,7 +315,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Westley 1978:5 fatores,0–17; crupe",
-    "implementationVersion": "escore-de-westley@native-2026-10-03+cb20099cd575",
+    "implementationVersion": "escore-de-westley@native-2026-10-05+abdcc7b52894",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/347921/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -583,7 +583,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+      "implementationHash": "abdcc7b52894fd380a099e3fdf23cc1ef487f88ceadf3581bb80bb08466423b3",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "escore-de-westley@native-2026-10-03+cb20099cd575",
+          "previousImplementationHash": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b",
+          "implementationHash": "abdcc7b52894fd380a099e3fdf23cc1ef487f88ceadf3581bb80bb08466423b3",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "2e09afc451670b290a881b3a421479a73701207a6c07e61f7e1cee7025a92435",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A publicação Westley 1978 avaliou 20 crianças de 4 meses a 5 anos, hospitalizadas por crupe agudo com estridor persistente em repouso, em um ensaio de intervenção. Essa faixa descreve a coorte original e não determina, sozinha, os limites universais de uso do escore. A tabela de pontuação e a classificação de gravidade adotada precisam de conferência específica.",
     "sourceLimitEvidence": {
@@ -602,20 +630,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/escore-de-westley/calculator.js",
-    "bytes": 5244,
-    "sha256": "cb20099cd57543f5a19f99f9e5ac2d9c5c26f27517757362cbeea6dc89687d3b"
+    "bytes": 5449,
+    "sha256": "abdcc7b52894fd380a099e3fdf23cc1ef487f88ceadf3581bb80bb08466423b3"
   },
-  "sourceToolSha256": "85e01cd12f9a3d5c6e7b9d4e8ffdf3e62a8ab51e5c441f762d009ecdfb094cb9",
+  "sourceToolSha256": "7ea476ba4ea9e1998d41e4f61c064d26149724129e2c2b05316c85e00f0eecaf",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "ebcd259f3635e7051a503a07da8d1831f43ff0615eef2a222fa7344790c992d7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "ebcd259f3635e7051a503a07da8d1831f43ff0615eef2a222fa7344790c992d7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

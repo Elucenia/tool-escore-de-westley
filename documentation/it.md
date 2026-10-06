@@ -93,3 +93,42 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Croup lieve (≤ 2)
+
+Desametasone orale 0,15 a 0,6 mg/kg in dose singola; dimissione con istruzioni.
+
+
+### 2
+
+Croup lieve (≤ 2)
+
+Desametasone orale 0,15 a 0,6 mg/kg in dose singola; dimissione con istruzioni.
+
+
+### 3
+
+Croup moderato (3 a 5)
+
+Desametasone; considerare epinefrina nebulizzata se stridore a riposo e osservare per 2 a 4 ore dopo l’epinefrina.
+
+
+### 4
+
+Croup grave (6 a 11)
+
+Epinefrina nebulizzata + desametasone, ossigeno se necessario e osservazione prolungata o ricovero.
+
+
+### 5
+
+Insufficienza respiratoria imminente (≥ 12)
+
+Epinefrina nebulizzata, ossigeno e attivazione del team vie aeree e della terapia intensiva pediatrica.
+
